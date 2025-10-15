@@ -5,7 +5,7 @@ import ImageDetailPage from "./pages/ImageDetailPage";
 
 const AppRouter = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/PTUDW_02_22120175">
       <Routes>
         <Route path="/photos" element={<ImageListPage />} />
         <Route path="/photos/:id" element={<ImageDetailPage />} />
